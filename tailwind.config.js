@@ -4,6 +4,10 @@ module.exports = {
     './src/**/*.tsx'
   ],
   theme: {
+    backgroundImage:{
+      blur: 'url(/src/assets/blur.png)',
+      vscode: 'url(/src/assets/group-vscode.png)', 
+    },
     extend: {
       fontFamily:{
         sans: 'Roboto, sans-serif'
