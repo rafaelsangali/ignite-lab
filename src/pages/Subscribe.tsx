@@ -75,7 +75,7 @@ export function Subscribe(){
       </div>
 
 
-      <img src="/src/assets/group-vscode.png" className="mt-10" alt="Foto Visual Studio Code" />
+      <img src="./src/assets/group-vscode.png" className="mt-10" alt="Foto Visual Studio Code" />
     </div>
   )
 }
