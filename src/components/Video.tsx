@@ -2,6 +2,7 @@ import { DefaultUi, Player, Youtube } from "@vime/react";
 import { CaretRight, DiscordLogo, FileArrowDown, Lightning } from "phosphor-react";
 import { gql, useQuery } from "@apollo/client";
 import '@vime/core/themes/default.css';
+import { Loading } from "./Loading";
 
 const GET_LESSON_BY_SLUG_QUERY = gql`
   query getLessonByQuery ($slug:String) {
@@ -43,9 +44,7 @@ export function Video(props: LessonSlugProps){
   
   if (!data) {
     return (
-      <div className="flex-1">
-        <p>Carregando...</p>
-      </div>
+      <Loading />
     )
   }
 

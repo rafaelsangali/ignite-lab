@@ -43,7 +43,7 @@ export function Subscribe(){
           <p className="mt-4 text-gray-200 leading-relaxed">Em apenas uma semana você vai dominar na prática uma das tecnologias mais utilizadas e com alta demanda para acessar as melhores oportunidades do mercado.</p>
         </div>
         <div>
-          <div className="p-8 bg-gray-700 border-gray-500 rounded">
+          <div className="p-8 bg-gray-700 border border-gray-500 rounded">
             <strong className="text-2xl mb-6 block">
               Inscreva-se gratuitamente
             </strong>
