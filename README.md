@@ -14,10 +14,6 @@ Logo após, instalar pacotes e dependências
 ```
 npm install
 ```
-ou
-```
-yarn add
-```
 
 ### 📋 Funcionalidades
 
